@@ -12,7 +12,7 @@ $(document).ready(function() {
     
     var button = $('button');
     var buttonDefaultText = button.text();
-    var result = $('<p id="result" />').insertAfter(button);
+    var result = $('#result');
     
     var responses = {
         falseAlarm: 'That was quick. Must have been a fart or a false alarm.',
